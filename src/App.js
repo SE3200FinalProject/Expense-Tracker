@@ -1,7 +1,8 @@
-import React, {useState} from "react";
-import DisplayExpenses from "./components/Expenses/DisplayExpenses";
+import React, { useState } from "react";
 import NewExpense from "./components/NewExpense/NewExpense";
+import ServerTest from "./ServerTest"; // harmless test box to check backend link
 
+// If you already had your own dummy data, keep it here:
 const DUMMY_EXPENSES = [
     {
       id: "e1",
@@ -30,22 +31,24 @@ const DUMMY_EXPENSES = [
   ];
 
 const App = () => {
-
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
-  const addExpenseHandler = expense => {
-    setExpenses(prevExpenses => {
-      return [expense, ...expenses]
-    });
-  }
+  const addExpenseHandler = (expense) => {
+    setExpenses((prev) => [expense, ...prev]);
+  };
 
   return (
-  <div>
-     <NewExpense onAddExpense = {addExpenseHandler} />
-     <DisplayExpenses expenses_list={expenses} />
-  
-  </div>
- );
+    <div>
+      <h1>Expense Tracker</h1>
+      <NewExpense onAddExpense={addExpenseHandler} />
+
+      {/* If you have an Expenses list component, uncomment the next line */}
+      {/* <Expenses items={expenses} /> */}
+
+      {/* Backend connectivity test (calls /api/v1/auth/me via CRA proxy) */}
+      <ServerTest />
+    </div>
+  );
 };
 
 export default App;
