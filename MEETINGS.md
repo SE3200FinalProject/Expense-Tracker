@@ -22,5 +22,9 @@ GitHub Project Board URL: https://github.com/users/SE3200FinalProject/projects/1
 Sent message to Wordh re: no contact from Ba Hakim and Powell
 
 10/19/2025 
-First Meeting
-Bond, Drouillard, and Ba Hakim, (Powell has not responded to e-mails, No reply from Wordh)
+Week 10 Standup
+Bond, Drouillard, and Ba Hakim
+Jim Bond: Completed GitHub, repo, and project board set-up. Helping to review API and schema sections.
+Abdullah Ba Hakim: Working on Database Schema . Will add to DESIGN.md.
+Joelle Drouillard: Assigned REST API Specification. Will add to DESIGN.md
+
