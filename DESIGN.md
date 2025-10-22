@@ -1,4 +1,3 @@
-*** PLEASE START ANY NEW ENTRIES WITH THE DATE AND YOUR INITIALS***
 10/12/2025
 Group formed
 Group Members; Jim Bond, Joelle Drouillard, Abdulhameed Ba Hakim
