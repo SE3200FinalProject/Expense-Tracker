@@ -90,6 +90,27 @@ updated_at
 timestamptz
 When expense was last updated
 
+REST API Spec.
+Auth:
+POST /api/v1/auth/register → 201
+POST /api/v1/auth/login → 200 (returns JWT cookie or token)
+POST /api/v1/auth/logout → 204
+GET /api/v1/auth/me → 200 (current user)
+Categories:
+GET /api/v1/categories
+POST /api/v1/categories
+PUT /api/v1/categories/:id
+DELETE /api/v1/categories/:id
+Expenses:
+GET /api/v1/expenses?from=&to=&category=&q=
+POST /api/v1/expenses
+PUT /api/v1/expenses/:id
+DELETE /api/v1/expenses/:id
+Stats (for dashboards/new features):
+GET /api/v1/analytics/summary?from=&to= (totals by category / month)
+All non-auth routes require JWT middleware (req.user.id scopes data to that user).
+
+
 
 
 
