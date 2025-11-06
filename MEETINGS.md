@@ -28,3 +28,5 @@ Jim Bond: Completed GitHub, repo, and project board set-up. Helping to review AP
 Abdullah Ba Hakim: Working on Database Schema . Will add to DESIGN.md.
 Joelle Drouillard: Assigned REST API Specification. Will add to DESIGN.md
 
+10/27/2025 Abdul: Will start working on the backend server setup on his local device first, then push the server folder to GitHub once it runs successfully.
+
