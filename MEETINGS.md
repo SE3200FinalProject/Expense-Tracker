@@ -28,5 +28,12 @@ Jim Bond: Completed GitHub, repo, and project board set-up. Helping to review AP
 Abdullah Ba Hakim: Working on Database Schema . Will add to DESIGN.md.
 Joelle Drouillard: Assigned REST API Specification. Will add to DESIGN.md
 
-10/27/2025 Abdul: Will start working on the backend server setup on his local device first, then push the server folder to GitHub once it runs successfully.
+10/27/2025 
+Abdul Will start working on the backend server setup on his local device first, then push the server folder to GitHub once it runs successfully.
 
+11/5/2025
+Abdul finished setting up the backend server for the expesnive Tracker project. The Express server is now running successfully on port 4000, and the Prisma database connection is working fine. The /api/auth/register and /api/auth/login routes were tested using Thunder Client and confirmed to be working.
+
+The Front-End Team will connect the react pages to the register and login API routes.
+
+We plan to meet again Friday or Saturday to make sure the front-end connects smoothly with the backend and to prepare for Milestone 2 progress updates. 
