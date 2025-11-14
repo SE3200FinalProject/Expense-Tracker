@@ -45,8 +45,13 @@ Abdul finished setting up the backend server for the expesnive Tracker project. 
 The Front-End Team will connect the react pages to the register and login API routes.
 
 We plan to meet again Friday or Saturday to make sure the front-end connects smoothly with the backend and to prepare for Milestone 2 progress updates. 
+
 11/6/2025 Jim communicated with the team that he was undergoing a medical procedure on 11/07/2025 and would be unavailable for approx 1 week.
+
 11/12/2025 Jim checked in with team to see how we have been progressing while I was convalescing. 
+
 11/13/2025 Jim was working on reviewing code for readability, consistency, and maintainability. Proofreaing code comments and enforcing naming conventions.
+
 11/14/2025 Jim worked on updating and maintaining the teams documentation and did a cursory audit of and tried to improve technical documentation across backend APIs and frontend components.
+
 10/14/2025 Jim upgraded the Railway account plan from the free trial (expired) to the Hobby plan which is a pay as you go platform @ 5.00 per month.
