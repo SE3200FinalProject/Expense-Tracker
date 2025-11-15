@@ -39,8 +39,8 @@ Abdul Started working on the backend server setup on his local device first, the
 
 10/28/2025 Jim and Abdul had discussions regarding setting up the server locally.
 
-11/5/2025
-Abdul finished setting up the backend server for the expesnive Tracker project. The Express server is now running successfully on port 4000, and the Prisma database connection is working fine. The /api/auth/register and /api/auth/login routes were tested using Thunder Client and confirmed to be working.
+11/5/2025 Abdul finished setting up the backend server for the expesnive Tracker project. The Express server is now running successfully on port 4000, and the Prisma database connection is working fine. The /api/auth/register and /api/auth/login routes were tested using Thunder Client and confirmed to be working.
+11/12/2025 added expenses route and updated server file
 
 The Front-End Team will connect the react pages to the register and login API routes.
 
