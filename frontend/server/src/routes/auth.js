@@ -4,7 +4,6 @@
 const passwordLocker = require("bcrypt")
 const security_key = require("jsonwebtoken")
 const data_store = require("../db")
-const authMiddleware = require("../middleware/auth");
 
   const router = express.Router()
 
@@ -38,17 +37,5 @@ router.post("/login", async (req, res) => {
     res.status(500).json({ error: "Login failed" })
   }
 })
-
-router.get("/me", authMiddleware, async (req, res) => {
-  try {
-    const user = await data_store.user.findUnique({
-      where: { id: req.userId },
-      select: { id: true, name: true, email: true },
-    });
-    res.json(user);
-  } catch {
-    res.status(500).json({ error: "Failed to fetch user" });
-  }
-});
 
 module.exports = router
