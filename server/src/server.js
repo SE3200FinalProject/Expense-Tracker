@@ -10,11 +10,16 @@
            app.use(cors())
          app.use(express.json())
 
+// Budget routes 
 
+
+const budgetRoutes = require("./routes/budgets")
+app.use("/api/budgets", budgetRoutes)
 
 const authRoutes = require("./routes/auth")
 
 app.use("/api/auth", authRoutes)
+
 
 // to connect to the expense routes
 const expenseRoutes = require("./routes/expenses")
