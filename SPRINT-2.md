@@ -1,6 +1,6 @@
 New Feature Implemented: Budgeting Module
 
-For Milestone 3, our team worked on adding the Budgeting Module feature. This feature lets users set a monthly budget by entering the month, year, and amount. The system then calculates how much was spent and how much is left.
+For Milestone 3, our team worked on adding the Budgeting Module feature. This feature lets users set a monthly budget by entering the month, year, and amount. The system then calculates how much was spent and how much is left.This helps users better manage their spending and understand their expenses more clearly.
 
 The backend for this feature was fully completed and tested. The frontend part is still being finished.
 
