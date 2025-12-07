@@ -93,3 +93,22 @@ export function createExpense(expense) {
     body: expense,
   });
 }
+export function saveBudget({ month, year, amount }) {
+    return apiRequest("/budgets", {
+        method: "POST",
+        body: {
+            month: Number(month),
+            year: Number(year),
+            amount: Number(amount),
+        },
+    });
+}
+// Get a single budget for a month/year
+export function getBudget({ month, year }) {
+    return apiRequest(`/budgets?month=${month}&year=${year}`);
+}
+
+// Get budget summary (budget, total spent, remaining)
+export function getBudgetSummary({ month, year }) {
+    return apiRequest(`/budgets/summary?month=${month}&year=${year}`);
+}

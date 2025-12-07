@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import NewExpense from "./components/NewExpense/NewExpense";
 import { loginUser, registerUser, fetchExpenses, createExpense, getAuthToken} from "./api/client";
+import Budget from "./components/Budget/Budget";
+
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -99,8 +101,8 @@ useEffect(() => {
       {user && (
         <>
           <NewExpense onAddExpense={handleAddExpense} />
-
-          <h2>Your Expenses</h2>
+            <Budget />
+            <h2>Your Expenses</h2>
           {expenses.map((e) => (
             <div key={e.id}>
               {e.title} — ${e.amount} — {new Date(e.date).toLocaleDateString()}

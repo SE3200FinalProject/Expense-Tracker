@@ -53,6 +53,6 @@ Because of an unexpected medical emergency in our team, deployment to Railway is
 
 The deployment link will be added once the app is live.
 
-
+Frontend is completed for budgeting module.
 
 
