@@ -1,5 +1,5 @@
 const TOKEN_KEY = "expenseToken";
-const API_URL = "/api";
+const API_URL = "https://expense-tracker-production-9262.up.railway.app/api";
 
 let authToken = null;
 
