@@ -53,6 +53,20 @@ Because of an unexpected medical emergency in our team, deployment to Railway is
 
 The deployment link will be added once the app is live.
 
+Week16
 Frontend is completed for budgeting module.
+
+Deployment Status:
+The full application is now deployed on Railway.
+
+Frontend (Public URL):
+
+https://generous-recreation-production-09ab.up.railway.app
+
+Backend (API URL):
+
+https://expense-tracker-production-9262.up.railway.app
+
+Both links are publicly accessible.
 
 
